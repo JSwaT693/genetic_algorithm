@@ -7,22 +7,22 @@ The algorithm operates on a population of candidate solutions (paths) and iterat
 
 ## Algorithm overview
 1. **Initialization**
-Population is generated using a combination of greedy algorithms - Nearest Neighbour or Random.
+- Population is generated using a combination of greedy algorithms - Nearest Neighbour or Random.
 
 2. **Evaluation**
-Each solution is evaluated based on total path cost in the graph.
+- Each solution is evaluated based on total path cost in the graph.
 
 3. **Selection**
-Tournament selection is used to choose parent solutions. 
+- Tournament selection is used to choose parent solutions. 
 
 4. **Crossover**
-Multiple crossover strategies are implemented:
+- Multiple crossover strategies are implemented:
    - PMX (Partially Mapped Crossover) 
    - Order Crossover (OX) 
    - Multipoint crossover
 
 5. **Mutation**
-Several mutation operators are available:
+- Several mutation operators are available:
    - Swap mutation
    - Inverse mutation
    - Scramble mutation
